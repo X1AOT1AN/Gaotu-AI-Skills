@@ -1,0 +1,12 @@
+# 忽略根目录下所有内容
+/*
+
+# 允许 Git 进入并跟踪以下内容
+!/.agents/
+!/.gitignore
+
+# 忽略 .agents 里面的所有内容（如果你在这个目录下写了不想上传的东西）
+/.agents/*
+
+# 只有 .agents/skills 是例外，允许跟踪它里面的所有内容
+!/.agents/skills/
